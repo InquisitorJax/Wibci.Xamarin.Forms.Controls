@@ -72,13 +72,16 @@ namespace Wibci.Forms.Controls
             var template = ItemTemplate.CreateContent() as View;
             template.BindingContext = item1;
 
-            var tapGestureRecognizer = new TapGestureRecognizer
+            if (ItemTappedCommand != null)
             {
-                Command = ItemTappedCommand,
-                CommandParameter = item1
-            };
+                var tapGestureRecognizer = new TapGestureRecognizer
+                {
+                    Command = ItemTappedCommand,
+                    CommandParameter = item1
+                };
 
-            template.GestureRecognizers.Add(tapGestureRecognizer);
+                template.GestureRecognizers.Add(tapGestureRecognizer);
+            }
             return template;
         }
 
