@@ -96,20 +96,23 @@ namespace Wibci.Forms.Controls
 
             var tiles = ItemsSource;
 
-            var numberOfRows = Math.Ceiling(tiles.Count / (float)MaxColumns);
-            for (var i = 0; i < numberOfRows; i++)
+            if (tiles != null)
             {
-                RowDefinitions.Add(new RowDefinition { Height = TileHeight });
-            }
+                var numberOfRows = Math.Ceiling(tiles.Count / (float)MaxColumns);
+                for (var i = 0; i < numberOfRows; i++)
+                {
+                    RowDefinitions.Add(new RowDefinition { Height = TileHeight });
+                }
 
-            for (var index = 0; index < tiles.Count; index++)
-            {
-                var column = index % MaxColumns;
-                var row = (int)Math.Floor(index / (float)MaxColumns);
+                for (var index = 0; index < tiles.Count; index++)
+                {
+                    var column = index % MaxColumns;
+                    var row = (int)Math.Floor(index / (float)MaxColumns);
 
-                var tile = BuildTile(tiles[index]);
+                    var tile = BuildTile(tiles[index]);
 
-                Children.Add(tile, column, row);
+                    Children.Add(tile, column, row);
+                }
             }
         }
 
