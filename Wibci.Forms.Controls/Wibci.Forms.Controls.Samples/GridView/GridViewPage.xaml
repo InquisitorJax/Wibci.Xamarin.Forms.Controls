@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage x:Class="Wibci.Forms.Controls.Samples.GridViewPage"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Wibci.Forms.Controls;assembly=Wibci.Forms.Controls">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Max Columns" WidthRequest="100" />
+                <Entry Grid.Column="1"
+                       Keyboard="Numeric"
+                       Text="{Binding MaxColumns}" />
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Label Text="Tile Height" WidthRequest="100" />
+                <Entry Grid.Column="1"
+                       Keyboard="Numeric"
+                       Text="{Binding TileHeight}" />
+            </Grid>
+
+            <Label HorizontalOptions="CenterAndExpand" Text="Tap on a tile :)" />
+        </StackLayout>
+
+        <ScrollView Grid.Row="1">
+            <controls:GridView ColumnSpacing="10"
+                               ItemTappedCommand="{Binding ItemTapCommand}"
+                               ItemsSource="{Binding ParentModels}"
+                               MaxColumns="{Binding MaxColumns}"
+                               Padding="5"
+                               RowSpacing="5"
+                               TileHeight="{Binding TileHeight}">
+                <controls:GridView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid BackgroundColor="OrangeRed" Padding="7,0,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Label FontSize="Large"
+                                   Text="{Binding Name}"
+                                   TextColor="White" />
+                            <Label Grid.Row="1"
+                                   Text="{Binding Description}"
+                                   TextColor="White" />
+                        </Grid>
+                    </DataTemplate>
+                </controls:GridView.ItemTemplate>
+            </controls:GridView>
+        </ScrollView>
+    </Grid>
+</ContentPage>

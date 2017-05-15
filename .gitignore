@@ -3,3 +3,12 @@
 ################################################################################
 
 /packages
+/Wibci.Forms.Controls/Wibci.Forms.Controls/bin/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls/obj/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.Android/bin/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.Android/obj/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.Android/Resources/Resource.Designer.cs
+/Wibci.Forms.Controls/Wibci.Forms.Controls.iOS/obj/iPhone/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.Samples/bin/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.Samples/obj/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.UWP/obj/x86/Debug
