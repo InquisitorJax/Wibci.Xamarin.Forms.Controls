@@ -284,6 +284,15 @@
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
+        }
+      },
       "runtime.native.System.IO.Compression/4.1.0": {
         "type": "package",
         "dependencies": {
@@ -2140,7 +2149,19 @@
           }
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -2397,6 +2418,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -4415,7 +4445,19 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -4673,6 +4715,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -6729,7 +6780,19 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -6989,6 +7052,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -9013,7 +9085,19 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -9274,6 +9358,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -11336,7 +11429,19 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -11596,6 +11701,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.any.System.Collections/4.0.11": {
@@ -13620,7 +13734,19 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -13881,6 +14007,15 @@
         },
         "compile": {
           "ref/netstandard1.3/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Prism.Core/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/wpa81/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/wpa81/Prism.dll": {}
         }
       },
       "runtime.aot.System.Collections/4.0.10": {
@@ -15943,7 +16078,19 @@
           "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "Xamarin.Forms/2.3.4.224": {
+      "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "2.2.0.31"
+        },
+        "compile": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll": {}
+        }
+      },
+      "Xamarin.Forms/2.3.4.247": {
         "type": "package",
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -16273,6 +16420,31 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
+      ]
+    },
+    "Prism.Core/6.3.0": {
+      "sha512": "8KKRF/1Hx76dXFrYb3XUbkGFWTZjjI99DTGcPt5/aGghb3iYBscxiT4WDVlGmUpfqw7QS/jDI2BGs5ZsAy8XVA==",
+      "type": "package",
+      "path": "prism.core/6.3.0",
+      "files": [
+        "lib/MonoAndroid10/Prism.dll",
+        "lib/MonoAndroid10/Prism.xml",
+        "lib/MonoTouch10/Prism.dll",
+        "lib/MonoTouch10/Prism.xml",
+        "lib/Xamarin.iOS10/Prism.dll",
+        "lib/Xamarin.iOS10/Prism.xml",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Prism.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Prism.xml",
+        "lib/wp8/Prism.dll",
+        "lib/wp8/Prism.xml",
+        "lib/wp81/Prism.dll",
+        "lib/wp81/Prism.xml",
+        "lib/wpa81/Prism.dll",
+        "lib/wpa81/Prism.xml",
+        "prism.core.6.3.0.nupkg.sha512",
+        "prism.core.nuspec"
       ]
     },
     "runtime.any.System.Collections/4.0.11": {
@@ -22139,11 +22311,25 @@
         "runtimes/aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
     },
-    "Xamarin.Forms/2.3.4.224": {
-      "sha512": "cjA3h83bCmnEjEYLcvi2n+rPc3rs3kuB/r5z5R/BFtBLp8kgV8AEImKBcYglsZ80uX3OSIVnPXN9lJ25GMGAmg==",
+    "Wibcisoft.Xamarin.Forms.Converters/1.0.2": {
+      "sha512": "tJewGauc03slsctx52uPDB2FHIlLMCKVM9BKQbwMgQz7xH3vvckMJ+VBYO7xfnxM3jLZxcKV51CxCmIEZ25/eQ==",
       "type": "package",
-      "path": "xamarin.forms/2.3.4.224",
+      "path": "wibcisoft.xamarin.forms.converters/1.0.2",
       "files": [
+        "Wibcisoft.Xamarin.Forms.Converters.1.0.2.nupkg.sha512",
+        "Wibcisoft.Xamarin.Forms.Converters.nuspec",
+        "lib/Wibci.Xamarin.Forms.Converters.dll",
+        "lib/net45/Wibci.Xamarin.Forms.Converters.dll",
+        "lib/uap10.0/Wibci.Xamarin.Forms.Converters.dll"
+      ]
+    },
+    "Xamarin.Forms/2.3.4.247": {
+      "sha512": "+6VN8IBSah7EcNJ4SV3pIhNA8tNlBaPLfr3+hQpPIllueJrXI5QtjM0tAJusPc2V1cYyC4YKvA1fs5c/A8RrBw==",
+      "type": "package",
+      "path": "xamarin.forms/2.3.4.247",
+      "files": [
+        "Xamarin.Forms.2.3.4.247.nupkg.sha512",
+        "Xamarin.Forms.nuspec",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Mdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Pdb.dll",
         "build/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Mono.Cecil.Rocks.dll",
@@ -22231,6 +22417,7 @@
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.pdb",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Core.xml",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.dll.mdb",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Platform.pdb",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.dll",
         "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+Xamarin.iOS10+xamarinmac20/Xamarin.Forms.Xaml.dll.mdb",
@@ -22291,9 +22478,7 @@
         "lib/wpa81/Xamarin.Forms.Platform.WinRT/Xamarin.Forms.Platform.WinRT.xr.xml",
         "lib/wpa81/Xamarin.Forms.Platform.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
-        "lib/wpa81/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.2.3.4.224.nupkg.sha512",
-        "xamarin.forms.nuspec"
+        "lib/wpa81/Xamarin.Forms.Xaml.xml"
       ]
     },
     "Wibci.Forms.Controls/1.0.0": {
@@ -22310,7 +22495,9 @@
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.2.2",
-      "Xamarin.Forms >= 2.3.4.224"
+      "Prism.Core >= 6.3.0",
+      "Wibcisoft.Xamarin.Forms.Converters >= 1.0.2",
+      "Xamarin.Forms >= 2.3.4.247"
     ],
     "UAP,Version=v10.0": []
   },
@@ -22327,11 +22514,11 @@
       "frameworks": {
         "uap10.0": {
           "projectReferences": {
-            "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.csproj": {
-              "projectPath": "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.csproj"
-            },
             "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.Samples\\Wibci.Forms.Controls.Samples.csproj": {
               "projectPath": "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.Samples\\Wibci.Forms.Controls.Samples.csproj"
+            },
+            "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.csproj": {
+              "projectPath": "C:\\D3V\\Git\\Wibci.Xamarin.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls\\Wibci.Forms.Controls.csproj"
             }
           }
         }
@@ -22339,7 +22526,9 @@
     },
     "dependencies": {
       "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-      "Xamarin.Forms": "2.3.4.224"
+      "Prism.Core": "6.3.0",
+      "Wibcisoft.Xamarin.Forms.Converters": "1.0.2",
+      "Xamarin.Forms": "2.3.4.247"
     },
     "frameworks": {
       "uap10.0": {}

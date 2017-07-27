@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Wibci.Forms.Controls.Samples.SwitchView.SwitchViewPage"
+             xmlns:controls="clr-namespace:Wibci.Forms.Controls;assembly=Wibci.Forms.Controls">
+    <ContentPage.Content>
+        <StackLayout>
+            <controls:SwitchView IsToggled="{Binding ILikeSuperheroes}"
+                                 OffText="Superheroes SUCK!"
+                                 OnText="Superheroes FTW!" />
+
+            <StackLayout IsVisible="{Binding ILikeSuperheroes}">
+                <Label Text="Choose your favourite:" />
+                <controls:SwitchView IsToggled="{Binding Flash}"
+
+                                     OffDescription="In brightest day. In blackest night"
+                                     OffText="Green Lantern"
+                                     OnDescription="The fastest man alive"
+                                     OnText="The Flash"
+                                     ShowDescription="true" />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

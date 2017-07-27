@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentView x:Class="Wibci.Forms.Controls.SwitchView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="switch">
+    <ContentView.Content>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label x:Name="_label" FontSize="Large" />
+            <Switch x:Name="_switch"
+                    Grid.Column="1"
+                    IsToggled="{Binding IsToggled,
+                                        Source={x:Reference switch}}"
+                    VerticalOptions="Center" />
+
+            <Label x:Name="_lblDescription"
+                   Grid.Row="1"
+                   Grid.ColumnSpan="2"
+                   FontSize="Small"
+                   IsVisible="{Binding ShowDescription,
+                                       Source={x:Reference switch}}" />
+        </Grid>
+    </ContentView.Content>
+</ContentView>
