@@ -8,11 +8,11 @@
 
         <Button Command="{Binding ShowGridViewPageCommand}" Text="Grid View" />
         <Button Command="{Binding ShowSwitchViewPageCommand}" Text="Switch View" />
+        <Button Command="{Binding ShowEntryViewPageCommand}" Text="Entry View" />
         <Button IsEnabled="False" Text="String Entry + Wrap Layout View" />
         <Button IsEnabled="False" Text="List View" />
         <Button IsEnabled="False" Text="Toolbar Item" />
         <Button IsEnabled="False" Text="Editor" />
         <Button IsEnabled="False" Text="Add String Entry" />
-        <Button IsEnabled="False" Text="Wibci Entry" />
     </StackLayout>
 </ContentPage>

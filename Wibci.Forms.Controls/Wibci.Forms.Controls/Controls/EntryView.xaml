@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:converters="clr-namespace:Wibci.Xamarin.Forms.Converters;assembly=Wibci.Xamarin.Forms.Converters"
+             x:Name="entry"
+             x:Class="Wibci.Forms.Controls.EntryView">
+    <ContentView.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="Android" Value="0, 0, 0, 0" />
+            <On Platform="WinPhone" Value="0, 10, 0, 0" />
+            <On Platform="Windows" Value="0, 10, 0, 0" />
+            <On Platform="iOS" Value="0, 7, 0, 0" />
+        </OnPlatform>
+    </ContentView.Padding>
+    <ContentView.Content>
+        <Grid>
+            <Grid.Resources>
+                <ResourceDictionary>
+                    <converters:BooleanToInvertedBooleanConverter x:Key="bob" />
+                    <converters:NullValueToBooleanConverter x:Key="nvb" />
+                </ResourceDictionary>
+            </Grid.Resources>
+
+            <Entry x:Name="_entry"
+                       Placeholder="{Binding LabelText,
+                                             Source={x:Reference entry}}"
+                       Text="{Binding EntryText,
+                                      Source={x:Reference entry}}">
+            </Entry>
+            <Label x:Name="_label"
+                       Margin="2,5,0,0"
+                       FontSize="Micro"
+                       IsVisible="{Binding Text,
+                                           Source={x:Reference _entry},
+                                           Converter={StaticResource nvb},
+                                           ConverterParameter=switch}"
+                       Text="{Binding LabelText,
+                                      Source={x:Reference entry}}" />
+        </Grid>
+    </ContentView.Content>
+</ContentView>

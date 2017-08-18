@@ -12,10 +12,19 @@ namespace Wibci.Forms.Controls.Samples
         {
             ShowGridViewPageCommand = new DelegateCommand(ShowGridViewPage);
             ShowSwitchViewPageCommand = new DelegateCommand(ShowSwitchViewPage);
+            ShowEntryViewPageCommand = new DelegateCommand(ShowEntryViewPage);
         }
 
+        public ICommand ShowEntryViewPageCommand { get; private set; }
+
         public ICommand ShowGridViewPageCommand { get; private set; }
+
         public ICommand ShowSwitchViewPageCommand { get; private set; }
+
+        private async void ShowEntryViewPage()
+        {
+            await Application.Current.MainPage.Navigation.PushAsync(new EntryViewPage());
+        }
 
         private async void ShowGridViewPage()
         {

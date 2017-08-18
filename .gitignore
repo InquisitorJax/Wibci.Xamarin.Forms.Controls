@@ -13,3 +13,6 @@
 /Wibci.Forms.Controls/Wibci.Forms.Controls.Samples/obj/Debug
 /Wibci.Forms.Controls/Wibci.Forms.Controls.UWP/obj/x86/Debug
 /Wibci.Forms.Controls/Wibci.Forms.Controls.UWP/bin/x86/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.iOS/bin/iPhoneSimulator/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.iOS/obj/iPhoneSimulator/Debug
+/Wibci.Forms.Controls/Wibci.Forms.Controls.UWP/Wibci.Forms.Controls.UWP.nuget.props

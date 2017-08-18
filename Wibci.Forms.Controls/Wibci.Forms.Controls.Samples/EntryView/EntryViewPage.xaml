@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Wibci.Forms.Controls;assembly=Wibci.Forms.Controls"
+             x:Class="Wibci.Forms.Controls.Samples.EntryViewPage">
+    <ContentPage.Content>
+        <StackLayout Padding="7">
+            <Label Text="{Binding Model.Title, StringFormat='Title: {0}'}" />
+            <controls:EntryView LabelText="title" EntryText="{Binding Model.Title}" />
+            <Label Text="{Binding Model.Author, StringFormat='Author: {0}'}" />
+            <controls:EntryView LabelText="author" EntryText="{Binding Model.Author}" />
+
+            <Label Text="{Binding Model.ReferenceNumber, StringFormat='Reference Number: {0}'}" />
+            <controls:EntryView LabelText="reference number" EntryText="{Binding Model.ReferenceNumber}" Keyboard="Numeric" />
+
+            <Label Text="{Binding Model.Secret, StringFormat='Secret: {0}'}" />
+            <controls:EntryView LabelText="secret" EntryText="{Binding Model.Secret}" IsPassword="True" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

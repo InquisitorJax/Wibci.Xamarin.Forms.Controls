@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.7
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibci.Forms.Controls.Android", "Wibci.Forms.Controls\Wibci.Forms.Controls.Android\Wibci.Forms.Controls.Android.csproj", "{1F45F85A-DF5B-42F6-A424-D46114E1DF79}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibci.Forms.Controls.iOS", "Wibci.Forms.Controls\Wibci.Forms.Controls.iOS\Wibci.Forms.Controls.iOS.csproj", "{F0E9A9A9-B273-47F6-983E-6766EAD54803}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wibci.Forms.Controls.Samples", "Wibci.Forms.Controls\Wibci.Forms.Controls.Samples\Wibci.Forms.Controls.Samples.csproj", "{67F9D3A8-F71E-4428-913F-C37AE82CDB24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{BEA6E9CD-0B5D-4707-A930-5C75B12AF58F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -304,5 +306,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F45F85A-DF5B-42F6-A424-D46114E1DF79} = {BEA6E9CD-0B5D-4707-A930-5C75B12AF58F}
+		{819134EA-E04A-43EC-B9BE-518C3AD3077F} = {BEA6E9CD-0B5D-4707-A930-5C75B12AF58F}
+		{F0E9A9A9-B273-47F6-983E-6766EAD54803} = {BEA6E9CD-0B5D-4707-A930-5C75B12AF58F}
+		{67F9D3A8-F71E-4428-913F-C37AE82CDB24} = {BEA6E9CD-0B5D-4707-A930-5C75B12AF58F}
 	EndGlobalSection
 EndGlobal
