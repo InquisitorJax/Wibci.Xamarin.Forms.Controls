@@ -67,7 +67,7 @@ namespace Wibci.Forms.Controls
             var entry = (EntryView)bindable;
             if (!string.IsNullOrEmpty((string)newValue))
             {
-                int y = Device.RuntimePlatform == Platforms.Android ? -15 : Device.RuntimePlatform == Platforms.iOS ? -20 : -25;
+                int y = Device.RuntimePlatform == Platforms.Android ? -12 : Device.RuntimePlatform == Platforms.iOS ? -20 : -25;
                 await entry._label.TranslateTo(-2, y);
             }
             else

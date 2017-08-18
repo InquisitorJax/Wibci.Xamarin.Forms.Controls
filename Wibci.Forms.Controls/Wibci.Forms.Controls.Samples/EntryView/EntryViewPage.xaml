@@ -14,6 +14,7 @@
             <controls:EntryView LabelText="reference number" EntryText="{Binding Model.ReferenceNumber}" Keyboard="Numeric" />
 
             <Label Text="{Binding Model.Secret, StringFormat='Secret: {0}'}" />
+
             <controls:EntryView LabelText="secret" EntryText="{Binding Model.Secret}" IsPassword="True" />
         </StackLayout>
     </ContentPage.Content>
