@@ -1,5 +1,6 @@
 # Wibci.Xamarin.Forms.Controls
 some common user controls for Xamarin Forms
+Note: I'm no longer adding custom controls to this repo - the latest controls can be found here <https://github.com/InquisitorJax/Xamarin-Forms-Controls>
 
 ## GridView
 Templated Tile Layout rendered against a bound ItemsSource
